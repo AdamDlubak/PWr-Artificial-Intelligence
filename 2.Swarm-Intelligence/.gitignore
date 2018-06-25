@@ -1,0 +1,45 @@
+# User-specific stuff
+.idea
+
+# CMake
+cmake-build-debug/
+cmake-build-release/
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# CSV with measurement results
+/results
+
+/dependencies
+/dist
+/local
+/gh-pages
+/ideaSDK
+/clionSDK
+out/
+/tmp
+workspace.xml
+*.versionsBackup
+/ultimate/dependencies
+/ultimate/ideaSDK
+/ultimate/out
+/ultimate/tmp
+.gradle/
+build/
+!**/src/**/build
+!**/test/**/build
+*.iml
+!**/testData/**/*.iml
